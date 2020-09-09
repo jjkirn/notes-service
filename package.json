@@ -1,0 +1,23 @@
+{
+  "name": "notes-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "nodemon --inspect-brk=0.0.0.0:9229 server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ronin-auth": "^0.1.5",
+    "ronin-database": "^0.1.1",
+    "ronin-mocks": "^0.1.6",
+    "ronin-rbac": "^0.1.1",
+    "ronin-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
